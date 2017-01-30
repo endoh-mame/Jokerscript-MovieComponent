@@ -9,6 +9,9 @@ Jokerscriptで動画を再生するプラグイン
 現在，MacOSX Sierra，Unity 5.4.0f3でのみ検証済み．
 おそらくWindowsでは動くが，iOSとAndroidでは動かない．
 
+現在，動画が自動で繰り返されてしまうバグの修正中です．
+なので**スキップの設定はfalse**，**連続してmovieタグを使わない**ことを推奨します．
+
 ## Install
 
 `Assets > Import Package > Custom Package...`
@@ -21,8 +24,14 @@ MovieJKS.unitypackageを選択
 
 ```
 ; 引数pathには拡張子抜きでファイル名
-[movie path="test"]
+; skipはマウスクリックで動画をスキップする際はtrue，しない場合はfalse
+[movie path="test" skip=true]
 ```
+
+## TODO
+
+- [ ] 連続再生時に繰り返されるバグ対処
+
 
 ## Licence
 
