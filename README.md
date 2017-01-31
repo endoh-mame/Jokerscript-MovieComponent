@@ -30,8 +30,7 @@ MovieJKS.unitypackageを選択
 
 ## TODO
 
-- [ ] 連続再生時に繰り返されるバグ対処
-
+- [ ] 再生時に動画が繰り返されるバグの修正
 
 ## Licence
 
